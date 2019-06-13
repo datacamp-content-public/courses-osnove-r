@@ -1,5 +1,5 @@
 ---
-title: 'Uvod'
+title: Uvod
 description: 'Kako instalirati i pokrenuti R'
 ---
 
