@@ -1,6 +1,7 @@
 ---
 title: Uvod
 description: 'Kako instalirati i pokrenuti R'
+free_preview: true
 ---
 
 ## Example coding exercise
