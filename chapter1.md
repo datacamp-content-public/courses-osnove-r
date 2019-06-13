@@ -1,6 +1,6 @@
 ---
-title: 'Chapter Title Here'
-description: 'Chapter description goes here.'
+title: 'Uvod'
+description: 'Kako instalirati i pokrenuti R'
 ---
 
 ## Example coding exercise
