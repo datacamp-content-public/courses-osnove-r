@@ -15,16 +15,16 @@ skills: 1
 
 U editoru koji je sa desne strane kucate R kod da biste rešili zadatke. Kada kliknete na dugme 'Submit Answer' svaka linija koda se interpetira i izvršava u R, i dobijate poruku da li je Vaš kod ispravan. Rezultat R koda se prikazuje u konzoli u donjem desnom uglu.
 
-R koristi znak `#` za dodavanje komentara, tako da možete da saznate šta radi određena linija R koda. Kao Twitter! Comments are not run as R code, so they will not influence your result. For example, _Calculate 3 + 4_ in the editor on the right is a comment.
+R koristi znak `#` za dodavanje komentara, tako da možete da saznate šta radi određena linija R koda. Kao Twitter! Komentari se ne izvršavaju kao R kod, tako da ne utiču na rezultat. Na primer, _Izračunajte 3 + 4_ u editoru sa desne strane je komentar.
 
-You can also execute R commands straight in the console. This is a good way to experiment with R code, as your submission is not checked for correctness.
+R komande možete da izvršavate i direktno u konzoli. To je dobar način za eksperimentisanje jer se ne proverava da li ste tačno uradili zadatak.
 
 `@instructions`
-- In the editor on the right there is already some sample code. Can you see which lines are actual R code and which are comments?
-- Add a line of code that calculates the sum of 6 and 12, and hit the 'Submit Answer' button.
+- U editoru sa desne strane već postoji primer koda. Da li možete da razlikujete koje su linije R kod a koje komentari?
+- Dodajte liniju koda koja izračunava sumu brojeva 6 i 12 i kliknite na 'Submit Answer' dugme.
 
 `@hint`
-Just add a line of R code that calculates the sum of 6 and 12, just like the example in the sample code!
+Samo dodajte liniju R koda koja izračunava sumu brojeva 6 i 12, isto kao i primer koda!
 
 `@pre_exercise_code`
 ```{r}
@@ -33,23 +33,23 @@ Just add a line of R code that calculates the sum of 6 and 12, just like the exa
 
 `@sample_code`
 ```{r}
-# Calculate 3 + 4
+# Izračunajte 3 + 4
 3 + 4
-# Calculate 6 + 12
+# Izračunajte 6 + 12
 ```
 
 `@solution`
 ```{r}
-# Calculate 3 + 4
+# Izračunajte 3 + 4
 3 + 4
-# Calculate 6 + 12
+# Izračunajte 6 + 12
 6 + 12
 ```
 
 `@sct`
 ```{r}
-test_output_contains("18", incorrect_msg = "Make sure to add `6 + 12` on a new line. Do not start the line with a `#`, otherwise your R code is not executed!")
-success_msg("Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!")
+test_output_contains("18", incorrect_msg = "Ukucajte `6 + 12` u novi red. Ne započinjite red sa `#`, inače se R kod neće izvršiti!")
+success_msg("Odlino! Primetili ste kako konzola prikazuje rezultat R koda koji ste priložili? Sada kad ste se upoznali sa interfejsom, možemo da krenemo sa R!")
 ```
 
 ---
