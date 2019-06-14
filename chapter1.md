@@ -63,7 +63,7 @@ xp: 100
 skills: 1
 ```
 
-In its most basic form, R can be used as a simple calculator. Consider the following arithmetic operators:
+U osnovi, R može da se koristi kao jednostavan kalkulator. Consider the following arithmetic operators:
 
 - Addition: `+`
 - Subtraction: `-`
