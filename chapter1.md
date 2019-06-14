@@ -54,7 +54,7 @@ success_msg("Odlino! Primetili ste kako konzola prikazuje rezultat R koda koji s
 
 ---
 
-## Arithmetic with R
+## Aritmetičke operacije u R
 
 ```yaml
 type: NormalExercise
@@ -133,7 +133,7 @@ success_msg("Great! Head over to the next exercise.")
 
 ---
 
-## Variable assignment
+## Dodeljivanje vrednosti promenljivima
 
 ```yaml
 type: NormalExercise
@@ -188,7 +188,7 @@ success_msg("Good job! Have you noticed that R does not print the value of a var
 
 ---
 
-## Variable assignment (2)
+## Dodeljivanje vrednosti promenljivima (2)
 
 ```yaml
 type: NormalExercise
@@ -237,7 +237,7 @@ success_msg("Great! Continue to the next exercise!")
 
 ---
 
-## Variable assignment (3)
+## Dodeljivanje vrednosti promenljivima (3)
 
 ```yaml
 type: NormalExercise
@@ -297,7 +297,7 @@ success_msg("Nice one! The great advantage of doing calculations with variables 
 
 ---
 
-## Apples and oranges
+## Jabuke i pomorandže
 
 ```yaml
 type: NormalExercise
@@ -354,7 +354,7 @@ success_msg("Awesome, keep up the good work! Continue to the next exercise.")
 
 ---
 
-## Basic data types in R
+## Osnovni tipovi podataka u R
 
 ```yaml
 type: NormalExercise
@@ -420,7 +420,7 @@ success_msg("Great work! Continue to the next exercise.")
 
 ---
 
-## What's that data type?
+## Koji tip podataka?
 
 ```yaml
 type: NormalExercise
