@@ -1,7 +1,6 @@
 ---
 title: Uvod u osnove R
-description: 'Uvod u R. In this chapter, you will take your first steps with R. You will learn how to use the console as a calculator and how to assign variables. You will also get to know the basic data types in R. Let's get started!'
-free_preview: true
+description: 'U ovom poglavlju napravićete svoje prve korake u R. Naučićete kako da koristite konzolu kao kalkulator i kako da dodeljujete promenljive (varijable). Takođe ćete se upoznati sa osnovnim tipovima podataka u R. '
 
 ---
 ## How it works
