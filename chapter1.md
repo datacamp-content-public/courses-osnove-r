@@ -4,7 +4,7 @@ description: 'U ovom poglavlju napravićete svoje prve korake u R. Naučićete k
 free_preview: true
 ---
 
-## How it works
+## Kako funkcioniše platforma
 
 ```yaml
 type: NormalExercise
@@ -13,7 +13,7 @@ xp: 100
 skills: 1
 ```
 
-In the editor on the right you should type R code to solve the exercises. When you hit the 'Submit Answer' button, every line of code is interpreted and executed by R and you get a message whether or not your code was correct. The output of your R code is shown in the console in the lower right corner.
+U editoru koji je sa desne strane kucate R kod da biste rešili zadatke. Kada kliknete na dugme 'Submit Answer' svaka linija koda se interpetira i izvršava u R, i dobijate poruku da li je Vaš kod ispravan. Rezultat R koda se prikazuje u konzoli u donjem desnom uglu.
 
 R makes use of the `#` sign to add comments, so that you and others can understand what the R code is about. Just like Twitter! Comments are not run as R code, so they will not influence your result. For example, _Calculate 3 + 4_ in the editor on the right is a comment.
 
