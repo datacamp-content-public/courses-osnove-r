@@ -1,6 +1,7 @@
 ---
 title: 'Uvod u osnove R'
 description: 'U ovom poglavlju napravićete svoje prve korake u R. Naučićete kako da koristite konzolu kao kalkulator i kako da dodeljujete promenljive (varijable). Takođe ćete se upoznati sa osnovnim tipovima podataka u R. '
+free_preview: true
 ---
 
 ## How it works
