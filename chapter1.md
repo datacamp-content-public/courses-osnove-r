@@ -197,7 +197,7 @@ xp: 100
 skills: 1
 ```
 
-Pretpostavimo da imeta korpu sa 5 jabuka. Kao Analitičar podataka hoćete da dodelite broj jabuka varijabli koja se zove `my_apples`.
+Pretpostavimo da imate korpu sa 5 jabuka. Kao Analitičar podataka hoćete da dodelite broj jabuka varijabli koja se zove `my_apples`.
 
 `@instructions`
 - Ukucajte sledeći kod u editoru: `my_apples <- 5`. Ova komanda će dodeliti vrednost 5 varijabli `my_apples`.
