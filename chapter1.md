@@ -146,17 +146,17 @@ Osnovni koncept statističkog programiranja su **varijable**.
 
 Varijabla nam omogućava da dodelimo vrednost (npr 4) ili objekat (npr opis funkcije) u R. Kasnije možete koristi naziv varijable da biste iskoristili vrednost ili objekat koji je dodeljen toj varijabli. 
 
-Možete dodeliti vrednost 4 varijabli `moja_var` pomoću komande
+Možete dodeliti vrednost 4 varijabli `my_var` pomoću komande
 
 ```
-moja_var <- 4
+my_var <- 4
 ```
 
 `@instructions`
-Over to you: complete the code in the editor such that it assigns the value 42 to the variable `x` in the editor. Click 'Submit Answer'. Notice that when you ask R to print `x`, the value 42 appears.
+Dovršite kod u editoru tako što ćete dodeliti vrednost 42 varijabli `x`. Kliknite 'Submit Answer'. Primetićete da kad ukucate komandu `x`, dobijate vrednost 42.
 
 `@hint`
-Look at how the value 4 was assigned to `my_variable` in the exercise's assignment. Do the exact same thing in the editor, but now assign 42 to the variable `x`.
+Pogledajte kako je vrednost 4 dodeljena varijabli `my_variable` u opisu vežbe. Uradite isto u editoru, ali sad dodelite vrednost 42 varijabli `x`.
 
 `@pre_exercise_code`
 ```{r}
@@ -165,25 +165,25 @@ Look at how the value 4 was assigned to `my_variable` in the exercise's assignme
 
 `@sample_code`
 ```{r}
-# Assign the value 42 to x
+# Dodelite vrednost 42 varijabli x
 x <- 
-# Print out the value of the variable x
+# Prikažite vrednost varijable x
 x
 ```
 
 `@solution`
 ```{r}
-# Assign the value 42 to x
+# Dodelite vrednost 42 varijabli x
 x <- 42
-# Print out the value of the variable x
+# Prikažite vrednost varijable x
 x
 ```
 
 `@sct`
 ```{r}
-test_object("x", undefined_msg = "Make sure to define a variable `x`.",
-            incorrect_msg = "Make sure that you assign the correct value to `x`.") 
-success_msg("Good job! Have you noticed that R does not print the value of a variable to the console when you did the assignment? `x <- 42` did not generate any output, because R assumes that you will be needing this variable in the future. Otherwise you wouldn't have stored the value in a variable in the first place, right? Proceed to the next exercise!")
+test_object("x", undefined_msg = "Proverite da li ste definisali varijablu `x`.",
+            incorrect_msg = "Proverite da li ste dodelili dobru vrednost varijabli `x`.") 
+success_msg("Odlično! Da li ste primetili da R ne prikazuje vrednost varijable u konzoli kad ste joj dodelili istu? `x <- 42` ne generiše izlaz, jer R pretpostavlja da ćete ovu varijablu koristiti kasnije. Inače ne biste ni dodeljivali vrednost, zar ne? Možete preći na sledeću vežbu!")
 ```
 
 ---
