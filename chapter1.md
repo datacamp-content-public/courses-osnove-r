@@ -142,14 +142,14 @@ xp: 100
 skills: 1
 ```
 
-A basic concept in (statistical) programming is called a **variable**. 
+Osnovni koncept statističkog programiranja su **varijable**. 
 
-A variable allows you to store a value (e.g. 4) or an object (e.g. a function description) in R. You can then later use this variable's name to easily access the value or the object that is stored within this variable. 
+Varijabla nam omogućava da dodelimo vrednost (npr 4) ili objekat (npr opis funkcije) u R. Kasnije možete koristi naziv varijable da biste iskoristili vrednost ili objekat koji je dodeljen toj varijabli. 
 
-You can assign a value 4 to a variable `my_var` with the command
+Možete dodeliti vrednost 4 varijabli `moja_var` pomoću komande
 
 ```
-my_var <- 4
+moja_var <- 4
 ```
 
 `@instructions`
