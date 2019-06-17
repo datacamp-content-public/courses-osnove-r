@@ -429,13 +429,13 @@ xp: 100
 skills: 1
 ```
 
-Do you remember that when you added `5 + "six"`, you got an error due to a mismatch in data types? You can avoid such embarrassing situations by checking the data type of a variable beforehand. You can do this with the `class()` function, as the code on the right shows.
+Da li se sećate da ste kada ste ukucali `5 + "six"`, dobili poruku zbog neusklađenog tipa podataka? Možete da izbegnete takve situacije tako što ćete proveriti koji je tip podataka promenljive. To možete da uradite pomoću funkcije `class()`, kao što je dato u primeru.
 
 `@instructions`
-Complete the code in the editor and also print out the classes of `my_character` and `my_logical`.
+Dovršite kod u editoru i prikažite tip podataka (klasu) za `my_character` i `my_logical`.
 
 `@hint`
-The code that prints the data type of `my_numeric` is already included; do a similar things for `my_character` and `my_logical`.
+Kod koji prikazuje tip podatka za `my_numeric` je već ispisan; uradite slično i za `my_character` i `my_logical`.
 
 `@pre_exercise_code`
 ```{r}
