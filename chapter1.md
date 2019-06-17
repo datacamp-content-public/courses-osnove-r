@@ -363,27 +363,27 @@ xp: 100
 skills: 1
 ```
 
-R works with numerous data types. Some of the most basic types to get started are:
+R funkcioniše sa različitim tipovima podataka. Neki od osnovnih tipova podataka su:
 
-- Decimal values like `4.5` are called **numerics**.
-- Natural numbers like `4` are called **integers**. Integers are also numerics.
-- Boolean values (`TRUE` or `FALSE`) are called **logical**.
-- Text (or string) values are called **characters**.
+- Decimalne vrednosti kao što je `4.5` se nazivaju **numerics**.
+- Priordni brojevi kao što je `4` su **integers**. Integers su takođe i numerics.
+- Bulove vrednosti (`TRUE` ili `FALSE`) su **logical**.
+- Tekstualne (string) vrednosti su **characters**.
 
-Note how the quotation marks on the right indicate that "some text" is a character.
+Znaci navoda u primerima ukazuju na to da je u pitanju tip podataka character.
 
 `@instructions`
-Change the value of the:
+Promenite vrednosti:
 
-- `my_numeric` variable to `42`.
-- `my_character` variable to `"universe"`. Note that the quotation marks indicate that `"universe"` is a character.
-- `my_logical` variable to `FALSE`.
+- `my_numeric` promenljive u `42`.
+- `my_character` promenljive u `"universe"`. Znaci navoda ukazuju da je `"universe"` character.
+- `my_logical` promenljive u `FALSE`.
 
-Note that R is case sensitive!
+R je case sensitive (razlikuje mala i velika slova)! `"universe"` i `"Universe"` nije isto.
 
 `@hint`
-Replace the values in the editor with the values that are provided in the exercise. For example: 
-`my_numeric <- 42` assigns the value 42 to the variable `my_numeric`.
+Zamenite vrednosti u editoru sa vrednostima koje su date u instrukcijama. Na primer: 
+`my_numeric <- 42` dodeljuje vrednost 42 promenljivoj `my_numeric`.
 
 `@pre_exercise_code`
 ```{r}
@@ -392,30 +392,30 @@ Replace the values in the editor with the values that are provided in the exerci
 
 `@sample_code`
 ```{r}
-# Change my_numeric to be 42
+# Promenite my_numeric u 42
 my_numeric <- 42.5
-# Change my_character to be "universe"
+# Promenite my_character u "universe"
 my_character <- "some text"
-# Change my_logical to be FALSE
+# Promenite my_logical u FALSE
 my_logical <- TRUE
 ```
 
 `@solution`
 ```{r}
-# Change my_numeric to be 42
+# Promenite my_numeric u 42
 my_numeric <- 42
-# Change my_character to be "universe"
+# Promenite my_character u "universe"
 my_character <- "universe"
-# Change my_logical to be FALSE
+# Promenite my_logical u FALSE
 my_logical <- FALSE
 ```
 
 `@sct`
 ```{r}
-test_object("my_numeric", incorrect_msg = "Have you correctly changed the declaration of `my_numeric` so it contains the value 42?")
-test_object("my_character", incorrect_msg = "Have you correctly changed `my_character` to `\"universe\"`? Don't forget the quotes!")
-test_object("my_logical", incorrect_msg = "Have you correctly changed `my_logical` to `FALSE`? All letters of `FALSE` should be capitalized!")
-success_msg("Great work! Continue to the next exercise.")
+test_object("my_numeric", incorrect_msg = "Da li ste pravilno izmenili `my_numeric` tako da sadrži vrednost 42?")
+test_object("my_character", incorrect_msg = "Da li ste pravilno izmenili `my_character` u `\"universe\"`? Ne zaboravite znake navoda!")
+test_object("my_logical", incorrect_msg = "Da li ste pravilno izmenili `my_logical` u `FALSE`? Sva slova `FALSE` moraju da budu velika!")
+success_msg("Odlično! Nastavite sa sledećom vežbom.")
 ```
 
 ---
