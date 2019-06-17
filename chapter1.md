@@ -306,14 +306,14 @@ xp: 100
 skills: 1
 ```
 
-Common knowledge tells you not to add apples and oranges. But hey, that is what you just did, no :-)? The `my_apples` and `my_oranges` variables both contained a number in the previous exercise. The `+` operator works with numeric variables in R. If you really tried to add "apples" and "oranges", and assigned a text value to the variable `my_oranges` (see the editor), you would be trying to assign the addition of a numeric and a character variable to the variable `my_fruit`. This is not possible.
+Promenljive `my_apples` i `my_oranges` sadrže brojeve u prethodnoj vežbi. Operator `+` funkcioniše sa numeričkim promeljivim u R. Ako dodelite tekstualnu vrednost promenljivoj `my_oranges` (pogledajte u editoru), tada biste pokušali da saberete numeričku i tekstualnu vrednost i dodelite je promenljivoj `my_fruit`. To nije moguće.
 
 `@instructions`
-- Click 'Submit Answer' and read the error message. Make sure to understand why this did not work.
-- Adjust the code so that R knows you have 6 oranges and thus a fruit basket with 11 pieces of fruit.
+- Kliknite 'Submit Answer' i pročitajte poruku o grešci. Pokušajte da shvatite zašto je ispisana ta poruka.
+- Prilagodite kod tako da R zna da imate 6 pomorandži i da se u korpi nalazi 11 komada voća.
 
 `@hint`
-You have to assign the numeric value `6` to the `my_oranges` variable instead of the character value `"six"`. Note how the quotation marks are used to indicate that `"six"` is a character.
+Potrebno je da dodelite numričku vrednost `6` promenljivoj `my_oranges` umesto tekstualne vrednosti `"six"`. Obratite pažnju da su navodnici znak da je `"six"` tekstualna vrednost.
 
 `@pre_exercise_code`
 ```{r}
@@ -322,34 +322,34 @@ You have to assign the numeric value `6` to the `my_oranges` variable instead of
 
 `@sample_code`
 ```{r}
-# Assign a value to the variable my_apples
+# Dodelite vrednost promenljivoj my_apples
 my_apples <- 5 
-# Fix the assignment of my_oranges
+# Podesite dodeljenu vrednost promenljive my_oranges
 my_oranges <- "six" 
-# Create the variable my_fruit and print it out
+# apravite promenljivu my_fruit i prikažite je
 my_fruit <- my_apples + my_oranges 
 my_fruit
 ```
 
 `@solution`
 ```{r}
-# Assign a value to the variable my_apples
+# Dodelite vrednost promenljivoj my_apples
 my_apples <- 5  
-# Fix the assignment of my_oranges
+# Podesite dodeljenu vrednost promenljive my_oranges
 my_oranges <- 6
-# Create the variable my_fruit and print it out
+# Napravite promenljivu my_fruit i prikažite je
 my_fruit <- my_apples + my_oranges 
 my_fruit
 ```
 
 `@sct`
 ```{r}
-test_error(incorrect_msg = "You can do this by setting the `my_oranges` variable to a numeric value, not a string!")
-test_object("my_apples", incorrect_msg = "Make sure that `my_apples` still contains `5`.")
-test_object("my_oranges", incorrect_msg = "Make sure that `my_oranges` is equal to `6`.")
-test_object("my_fruit", incorrect_msg = "The value of `my_fruit` is not correct. It should be 11, the sum of `my_apples` and `my_oranges`.")
-test_output_contains("my_fruit", incorrect_msg = "Don't remove the line that prints out `my_fruit`.")
-success_msg("Awesome, keep up the good work! Continue to the next exercise.")
+test_error(incorrect_msg = "Dodelite promenljivoj `my_oranges` numeričku vrednost, a ne tekstualnu!")
+test_object("my_apples", incorrect_msg = "Proverite da li je `my_apples` jednako `5`.")
+test_object("my_oranges", incorrect_msg = "Proverite da li je `my_oranges` jednako `6`.")
+test_object("my_fruit", incorrect_msg = "Vrednost `my_fruit` nije tačna. Trebalo bi da bude 11, zbir `my_apples` i `my_oranges`.")
+test_output_contains("my_fruit", incorrect_msg = "Nemojte da brišete red koji ispisuje `my_fruit`.")
+success_msg("Odlično! Nastavite sa sledećom vežbom.")
 ```
 
 ---
