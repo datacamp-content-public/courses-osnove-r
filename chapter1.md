@@ -197,15 +197,15 @@ xp: 100
 skills: 1
 ```
 
-Pretpostavimo da imate korpu sa 5 jabuka. Kao Analitičar podataka hoćete da dodelite broj jabuka varijabli koja se zove `my_apples`.
+Pretpostavimo da imate korpu sa 5 jabuka. Kao Analitičar podataka hoćete da dodelite broj jabuka promenljivoj koja se zove `my_apples`.
 
 `@instructions`
-- Ukucajte sledeći kod u editoru: `my_apples <- 5`. Ova komanda će dodeliti vrednost 5 varijabli `my_apples`.
-- Ukucajte: `my_apples` ispod drugog komentara. Rezultat će prikazati vrednost varijable `my_apples`.
-- Kliknite 'Submit Answer', i pogledaje šta je ispisano u konzoli: primetićete da je ispisan broj 5. R je povezao varijablu `my_apples` sa vrednošću 5.
+- Ukucajte sledeći kod u editoru: `my_apples <- 5`. Ova komanda će dodeliti vrednost 5 promenljivoj `my_apples`.
+- Ukucajte: `my_apples` ispod drugog komentara. Rezultat će prikazati vrednost promenljive `my_apples`.
+- Kliknite 'Submit Answer', i pogledajte šta je ispisano u konzoli: primetićete da je ispisan broj 5. R je povezao promenljivu `my_apples` sa vrednošću 5.
 
 `@hint`
-Zapamtite da ako želite da dodelite vrednost ili objekat varijabli u R, možete da koristite operator operator `<-`. Možete da koristite i `=`, ali je `<-` široko rasprostranjen u R zajednici.
+Zapamtite da ako želite da dodelite vrednost ili objekat promenljivoj u R, možete da koristite operator `<-`. Možete da koristite i `=`, ali je `<-` široko rasprostranjen u R zajednici.
 
 `@pre_exercise_code`
 ```{r}
@@ -214,24 +214,24 @@ Zapamtite da ako želite da dodelite vrednost ili objekat varijabli u R, možete
 
 `@sample_code`
 ```{r}
-# Dodelite vrednost 5 varijabli my_apples
-# Prikažite vrednost varijable my_apples
+# Dodelite vrednost 5 promenljivoj my_apples
+# Prikažite vrednost promenljive my_apples
 ```
 
 `@solution`
 ```{r}
-# Dodelite vrednost 5 varijabli my_apples
+# Dodelite vrednost 5 promenljivoj my_apples
 my_apples <- 5
-# Prikažite vrednost varijable my_apples
+# Prikažite vrednost promenljive my_apples
 my_apples
 ```
 
 `@sct`
 ```{r}
 test_object("my_apples", 
-            undefined_msg = "Budite sigurni da ste definisali varijablu `my_apples`.",
-            incorrect_msg = "Budite sigurni da ste dodelili dobru vrednost varijabli `my_apples`.")
-test_output_contains("my_apples", incorrect_msg = "Da li ste ukucali komandu u R koja prikazuje (ispisuje) varijablu `my_apples` u konzoli?")
+            undefined_msg = "Budite sigurni da ste definisali promenljivu `my_apples`.",
+            incorrect_msg = "Budite sigurni da ste dodelili dobru vrednost promenljivoj `my_apples`.")
+test_output_contains("my_apples", incorrect_msg = "Da li ste ukucali komandu u R koja prikazuje (ispisuje) promenljivu `my_apples` u konzoli?")
 success_msg("Odlično! Nastavite dalje!")
 ```
 
