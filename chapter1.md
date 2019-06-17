@@ -142,21 +142,21 @@ xp: 100
 skills: 1
 ```
 
-Osnovni koncept statističkog programiranja su **varijable**. 
+Osnovni koncept statističkog programiranja su **promenljive** (variables). 
 
-Varijabla nam omogućava da dodelimo vrednost (npr 4) ili objekat (npr opis funkcije) u R. Kasnije možete koristi naziv varijable da biste iskoristili vrednost ili objekat koji je dodeljen toj varijabli. 
+Promenljiva nam omogućava da dodelimo vrednost (npr 4) ili objekat (npr opis funkcije) u R. Kasnije možete koristi naziv promenljive da biste iskoristili vrednost ili objekat koji je dodeljen toj promenljivoj. 
 
-Možete dodeliti vrednost 4 varijabli `my_var` pomoću komande
+Možete dodeliti vrednost 4 promenljivoj `my_var` pomoću komande
 
 ```
 my_var <- 4
 ```
 
 `@instructions`
-Dovršite kod u editoru tako što ćete dodeliti vrednost 42 varijabli `x`. Kliknite 'Submit Answer'. Primetićete da kad ukucate komandu `x`, dobijate vrednost 42.
+Dovršite kod u editoru tako što ćete dodeliti vrednost 42 promenljivoj `x`. Kliknite 'Submit Answer'. Primetićete da kad ukucate komandu `x`, dobijate vrednost 42.
 
 `@hint`
-Pogledajte kako je vrednost 4 dodeljena varijabli `my_variable` u opisu vežbe. Uradite isto u editoru, ali sad dodelite vrednost 42 varijabli `x`.
+Pogledajte kako je vrednost 4 dodeljena promenljivoj `my_variable` u opisu vežbe. Uradite isto u editoru, ali sad dodelite vrednost 42 promenljivoj `x`.
 
 `@pre_exercise_code`
 ```{r}
@@ -165,25 +165,25 @@ Pogledajte kako je vrednost 4 dodeljena varijabli `my_variable` u opisu vežbe. 
 
 `@sample_code`
 ```{r}
-# Dodelite vrednost 42 varijabli x
+# Dodelite vrednost 42 promenljivoj x
 x <- 
-# Prikažite vrednost varijable x
+# Prikažite vrednost promenljive x
 x
 ```
 
 `@solution`
 ```{r}
-# Dodelite vrednost 42 varijabli x
+# Dodelite vrednost 42 promenljivoj x
 x <- 42
-# Prikažite vrednost varijable x
+# Prikažite vrednost promenljive x
 x
 ```
 
 `@sct`
 ```{r}
-test_object("x", undefined_msg = "Proverite da li ste definisali varijablu `x`.",
-            incorrect_msg = "Proverite da li ste dodelili dobru vrednost varijabli `x`.") 
-success_msg("Odlično! Da li ste primetili da R ne prikazuje vrednost varijable u konzoli kad ste joj dodelili istu? `x <- 42` ne generiše izlaz, jer R pretpostavlja da ćete ovu varijablu koristiti kasnije. Inače ne biste ni dodeljivali vrednost, zar ne? Možete preći na sledeću vežbu!")
+test_object("x", undefined_msg = "Proverite da li ste definisali promenljivu `x`.",
+            incorrect_msg = "Proverite da li ste dodelili dobru vrednost promenljivoj `x`.") 
+success_msg("Odlično! Da li ste primetili da R ne prikazuje vrednost promenljive u konzoli kad ste joj dodelili istu? `x <- 42` ne generiše izlaz, jer R pretpostavlja da ćete ovu promenljivu koristiti kasnije. Inače ne biste ni dodeljivali vrednost, zar ne? Možete preći na sledeću vežbu!")
 ```
 
 ---
