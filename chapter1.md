@@ -197,15 +197,15 @@ xp: 100
 skills: 1
 ```
 
-Suppose you have a fruit basket with five apples. As a data analyst in training, you want to store the number of apples in a variable with the name `my_apples`.
+Pretpostavimo da imeta korpu sa 5 jabuka. Kao Analitičar podataka hoćete da dodelite broj jabuka varijabli koja se zove `my_apples`.
 
 `@instructions`
-- Type the following code in the editor: `my_apples <- 5`. This will assign the value 5 to `my_apples`.
-- Type: `my_apples` below the second comment. This will print out the value of `my_apples`.
-- Click 'Submit Answer', and look at the console: you see that the number 5 is printed. So R now links the variable `my_apples` to the value 5.
+- Ukucajte sledeći kod u editoru: `my_apples <- 5`. Ova komanda će dodeliti vrednost 5 varijabli `my_apples`.
+- Ukucajte: `my_apples` ispod drugog komentara. Rezultat će prikazati vrednost varijable `my_apples`.
+- Kliknite 'Submit Answer', i pogledaje šta je ispisano u konzoli: primetićete da je ispisan broj 5. R je povezao varijablu `my_apples` sa vrednošću 5.
 
 `@hint`
-Remember that if you want to assign a number or an object to a variable in R, you can make use of the assignment operator `<-`. Alternatively, you can use `=`, but `<-` is widely preferred in the R community.
+Zapamtite da ako želite da dodelite vrednost ili objekat varijabli u R, možete da koristite operator operator `<-`. Možete da koristite i `=`, ali je `<-` široko rasprostranjen u R zajednici.
 
 `@pre_exercise_code`
 ```{r}
@@ -214,25 +214,25 @@ Remember that if you want to assign a number or an object to a variable in R, yo
 
 `@sample_code`
 ```{r}
-# Assign the value 5 to the variable my_apples
-# Print out the value of the variable my_apples
+# Dodelite vrednost 5 varijabli my_apples
+# Prikažite vrednost varijable my_apples
 ```
 
 `@solution`
 ```{r}
-# Assign the value 5 to the variable my_apples
+# Dodelite vrednost 5 varijabli my_apples
 my_apples <- 5
-# Print out the value of the variable my_apples
+# Prikažite vrednost varijable my_apples
 my_apples
 ```
 
 `@sct`
 ```{r}
 test_object("my_apples", 
-            undefined_msg = "Please make sure to define a variable `my_apples`.",
-            incorrect_msg = "Make sure that you assign the correct value to `my_apples`.")
-test_output_contains("my_apples", incorrect_msg = "Have you explicitly told R to print out the `my_apples` variable to the console?")
-success_msg("Great! Continue to the next exercise!")
+            undefined_msg = "Budite sigurni da ste definisali varijablu `my_apples`.",
+            incorrect_msg = "Budite sigurni da ste dodelili dobru vrednost varijabli `my_apples`.")
+test_output_contains("my_apples", incorrect_msg = "Da li ste ukucali komandu u R koja prikazuje (ispisuje) varijablu `my_apples` u konzoli?")
+success_msg("Odlično! Nastavite dalje!")
 ```
 
 ---
