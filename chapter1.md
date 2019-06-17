@@ -246,7 +246,7 @@ xp: 100
 skills: 1
 ```
 
-Every tasty fruit basket needs oranges, so you decide to add six oranges. As a data analyst, your reflex is to immediately create the variable `my_oranges` and assign the value 6 to it. Next, you want to calculate how many pieces of fruit you have in total. Since you have given meaningful names to these values, you can now code this in a clear way: 
+Svaka ukusna korpa sa voćem ima pomorandže, tako da ste odlučili da dodate 6 pomorandži. Pošto ste analitičar podataka, odlučujete da odmah kreirate promenljivu `my_oranges` i dodelite joj vrednost 6. Sledeće, hoćete da izračunate koliko komada voća imate ukupno. Pošto ste dali promenljivima logične naziva to možete da uradite na sledeći način: 
 
 ```
 my_apples + my_oranges
