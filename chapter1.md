@@ -49,7 +49,7 @@ Samo dodajte liniju R koda koja izračunava sumu brojeva 6 i 12, isto kao i prim
 `@sct`
 ```{r}
 test_output_contains("18", incorrect_msg = "Ukucajte `6 + 12` u novi red. Ne započinjite red sa `#`, inače se R kod neće izvršiti!")
-success_msg("Odlino! Primetili ste kako konzola prikazuje rezultat R koda koji ste priložili? Sada kad ste se upoznali sa interfejsom, možemo da krenemo sa R!")
+success_msg("Odlično! Primetili ste kako konzola prikazuje rezultat R koda koji ste priložili? Sada kad ste se upoznali sa interfejsom, možemo da krenemo sa R!")
 ```
 
 ---
@@ -63,30 +63,30 @@ xp: 100
 skills: 1
 ```
 
-U osnovi, R može da se koristi kao jednostavan kalkulator. Consider the following arithmetic operators:
+U osnovi, R može da se koristi kao kalkulator jer podržava sledeće aritmetičke operatore:
 
-- Addition: `+`
-- Subtraction: `-`
-- Multiplication: `*`
-- Division: `/`
-- Exponentiation: `^`
+- Sabiranje: `+`
+- Oduzimanje: `-`
+- Množenje: `*`
+- Deljenje: `/`
+- Stepenovanje: `^`
 - Modulo: `%%`
 
-The last two might need some explaining:
+Pojasnićemo poslednje dve operacije:
 
-- The `^` operator raises the number to its left to the power of the number to its right: for example `3^2` is 9.
-- The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or `5 %% 3` is 2.
+- Operator `^` daje stepen broja sa leve strane na broj sa desne strane: na primer `3^2` je 9.
+- Modulo vraća ostatak deljenja broja sa leve strane sa brojem sa desne strane, na primer 5 modulo 3 ili `5 %% 3` je 2.
 
-With this knowledge, follow the instructions below to complete the exercise.
+Na osnovu prethodnog, rešite zadatak prateći instrukcije.
 
 `@instructions`
-- Type `2^5` in the editor to calculate 2 to the power 5.
-- Type `28 %% 6` to calculate 28 modulo 6.
-- Click 'Submit Answer' and have a look at the R output in the console.
-- Note how the `#` symbol is used to add comments on the R code.
+- Ukucajte `2^5` u editor da biste izračunali 2 na 5.
+- Ukucajte `28 %% 6` da biste izračunali 28 modulo 6.
+- Kliknite 'Submit Answer' i pogledajte rezultat u izlaznoj konzoli.
+- Primetićete da se simbol `#` koristi za dodavanje komentara R kodu.
 
 `@hint`
-Another example of the modulo operator: `9 %% 2` equals `1`.
+Još jedan primer modulo operatora: `9 %% 2` jednako je `1`.
 
 `@pre_exercise_code`
 ```{r}
@@ -95,29 +95,29 @@ Another example of the modulo operator: `9 %% 2` equals `1`.
 
 `@sample_code`
 ```{r}
-# An addition
+# Sabiranje
 5 + 5 
-# A subtraction
+# Oduzimanje
 5 - 5 
-# A multiplication
+# Množenje
 3 * 5
- # A division
+ # Deljenje
 (5 + 5) / 2 
-# Exponentiation
+# Stepenovanje
 # Modulo
 ```
 
 `@solution`
 ```{r}
-# An addition
+# Sabiranje
 5 + 5
-# A subtraction
+# Oduzimanje
 5 - 5 
-# A multiplication
+# Množenje
 3 * 5
- # A division
+# Deljenje
 (5 + 5) / 2 
-# Exponentiation
+# Stepenovanje
 2 ^ 5
 # Modulo
 28 %% 6
@@ -125,10 +125,10 @@ Another example of the modulo operator: `9 %% 2` equals `1`.
 
 `@sct`
 ```{r}
-msg = "Do not remove the other arithmetic examples!"
-test_output_contains("2^5", incorrect_msg = "The exponentiation example is not correct. Write `2 ^ 5` on a new line.")
-test_output_contains("28 %% 6", incorrect_msg = "There seems to be an issue with the modulo example. Write `28 %% 6` on a new line.")
-success_msg("Great! Head over to the next exercise.")
+msg = "Ne uklanjajte ostale primere!"
+test_output_contains("2^5", incorrect_msg = "Primer stepenovanje nije tačan. Ukucajte `2 ^ 5` u novi red.")
+test_output_contains("28 %% 6", incorrect_msg = "Postoji problem sa primerom modulo. Ukucajte `28 %% 6` u novi red.")
+success_msg("Odlično! Pređite na sledeći zadatak.")
 ```
 
 ---
