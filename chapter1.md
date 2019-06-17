@@ -253,12 +253,12 @@ my_apples + my_oranges
 ```
 
 `@instructions`
-- Assign to `my_oranges` the value 6.
-- Add the variables `my_apples` and `my_oranges` and have R simply print the result.
-- Assign the result of adding `my_apples` and `my_oranges` to a new variable `my_fruit`.
+- Dodelite promenljivoj `my_oranges` vrednost 6.
+- Dodajte promenljive `my_apples` i `my_oranges` i prikažite rezultat.
+- Dodelite rezultat tako što ćete sabrati `my_apples` i `my_oranges` novoj promenljivoj `my_fruit`.
 
 `@hint`
-`my_fruit` is just the sum of `my_apples` and `my_oranges`. You can use the `+` operator to sum the two and `<-` to assign that value to the variable `my_fruit`.
+`my_fruit` je zbir `my_apples` i `my_oranges`. Možete da koristite operator `+` da biste ih sabrali i `<-` da biste dodelili dobijenu vrednost promenljivoj `my_fruit`.
 
 `@pre_exercise_code`
 ```{r}
@@ -267,32 +267,32 @@ my_apples + my_oranges
 
 `@sample_code`
 ```{r}
-# Assign a value to the variables my_apples and my_oranges
+# Dodelite vrednost promenljivima my_apples i my_oranges
 my_apples <- 5
-# Add these two variables together
-# Create the variable my_fruit
+# Saberite ove dve promenljive
+# Napravite promenljivu my_fruit
 ```
 
 `@solution`
 ```{r}
-# Assign a value to the variables my_apples and my_oranges
+# Dodelite vrednost promenljivima my_apples i my_oranges
 my_apples  <- 5
 my_oranges <- 6
-# Add these two variables together
+# Saberite ove dve promenljive
 my_apples + my_oranges
-# Create the variable my_fruit
+# Napravite promenljivu my_fruit
 my_fruit <- my_apples + my_oranges
 ```
 
 `@sct`
 ```{r}
-test_object("my_apples", incorrect_msg = "Keep the line that assigns 5 to `my_apples`.")
-test_object("my_oranges", incorrect_msg = "Keep the line that assigns 6 to `my_oranges`.")
+test_object("my_apples", incorrect_msg = "Ukucajte komandu da biste dodelili vrednost 5 promenljivoj `my_apples`.")
+test_object("my_oranges", incorrect_msg = "Ukucajte komandu da biste dodelili vrednost 6 promenljivoj `my_oranges`.")
 test_output_contains("my_apples + my_oranges",
-                     incorrect_msg = "Make sure to print out the result of adding `my_apples` and `my_oranges`. The code example in the description already gives away the answer to this instruction!")
-msg <- "Have you used `my_fruit <- my_apples + my_oranges` to create the `my_fruit` variable?"
+                     incorrect_msg = "Proverite da li ste ispisali rezultat sabiranja promenljivih `my_apples` i `my_oranges`. Primer koda u opisu daje odgovor na ovo pitanje!")
+msg <- "Da li ste koristili `my_fruit <- my_apples + my_oranges` da biste kreirali `my_fruit` promenljivu?"
 test_object("my_fruit", undefined_msg = msg, incorrect_msg = msg)
-success_msg("Nice one! The great advantage of doing calculations with variables is reusability. If you just change `my_apples` to equal 12 instead of 5 and rerun the script, `my_fruit` will automatically update as well. Continue to the next exercise.")
+success_msg("Odlično! Velika prednost promenljivih je njihova ponovna korišćenost. Ako dodelite vrednost 12 umesto vrednosti 5 promenljivoj `my_apples` i ponovo pokrenete skriptu, `my_fruit` će se takođe automatski ponovo izračunati. Nastavite sa sledećom vežbom.")
 ```
 
 ---
