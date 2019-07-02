@@ -13,12 +13,12 @@ xp: 100
 skills: 1
 ```
 
-Feeling lucky? You better, because this chapter takes you on a trip to the City of Sins, also known as *Statisticians Paradise*!
+Da li osećate da imate sreće? Pripremite se, ovo poglavlje vas vodi na put u Grad grehova poznat kao "Raj za statističare"
 
-Thanks to R and your new data-analytical skills, you will learn how to uplift your performance at the tables and fire off your career as a professional gambler. This chapter will show how you can easily keep track of your betting progress and how you can do some simple analyses on past actions. Next stop, Vegas Baby... VEGAS!!
+Zahvaljujući R i vašim novim analitičkim sposobnostima, naučićete kako da unapredite svoje performanse nad tabelama i započnete karijeru kao profesionalni kockar. U ovom poglavlju naučićete kako da pratite svoj napredak u kockanju i kako da uradite jednostavne analize prethodnih koraka. Sledeća stanica, Vegas Baby... VEGAS!!
 
 `@instructions`
-- Do you still remember what you have learned in the first chapter? Assign the value `"Go!"` to the variable `vegas`. Remember: R is case sensitive!
+- Da li se sećate šta ste naučili Do you still remember what you have learned in the first chapter? Assign the value `"Go!"` to the variable `vegas`. Remember: R is case sensitive!
 
 `@hint`
 Just type the following line in the editor:
