@@ -21,7 +21,7 @@ Zahvaljujući R i vašim novim analitičkim sposobnostima, naučićete kako da u
 - Da li se sećate šta ste naučili Do you still remember what you have learned in the first chapter? Assign the value `"Go!"` to the variable `vegas`. Remember: R is case sensitive!
 
 `@hint`
-Just type the following line in the editor:
+Otkucajte sledeći kod u editor:
 ```
 vegas <- "Go!"
 ```
@@ -33,20 +33,20 @@ vegas <- "Go!"
 
 `@sample_code`
 ```{r}
-# Define the variable vegas
+# Definišite promenljive vegas
 vegas <- 
 ```
 
 `@solution`
 ```{r}
-# Define the variable vegas
+# Definišite promenljive vegas
 vegas <- "Go!"
 ```
 
 `@sct`
 ```{r}
-test_object("vegas", incorrect_msg = "Make sure that you assign the correct value to `vegas`. Do not forget that R is case sensitive!")
-success_msg("Great! Head over to the next exercise.")
+test_object("vegas", incorrect_msg = "Da li ste dodelili dobru vrednost promenljivoj `vegas`? R razlikuje velika i mala slova!")
+success_msg("Odlično! Pređite na sledeću vežbu.")
 ```
 
 ---
