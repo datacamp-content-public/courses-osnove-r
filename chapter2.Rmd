@@ -4,7 +4,7 @@ title: 'Vektori (Vectors)'
 description: 'U ovom poglavlju vodimo vas na put u Vegas, gde ćete naučiti kako da analizirate rezultate kockanja korišćenjem vektora u R! Nakon završetka ovog poglavlja moći ćete da kreirate vektore u R, da im dajete nazive, da izdvojite njihove elemente i da poredite različite vektore.'
 ---
 
-## Create a vector
+## Kreiranje vektora
 
 ```yaml
 type: NormalExercise
@@ -51,7 +51,7 @@ success_msg("Odlično! Pređite na sledeću vežbu.")
 
 ---
 
-## Create a vector (2)
+## Kreiranje vektora (2)
 
 ```yaml
 type: NormalExercise
