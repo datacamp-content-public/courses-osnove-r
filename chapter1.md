@@ -1,6 +1,9 @@
 ---
-title: 'Uvod u osnove R'
-description: 'U ovom poglavlju napravićete svoje prve korake u R. Naučićete kako da koristite konzolu kao kalkulator i kako da dodeljujete promenljive (varijable). Takođe ćete se upoznati sa osnovnim tipovima podataka u R. '
+title: Uvod u osnove R
+description: >-
+  U ovom poglavlju napravićete svoje prve korake u R. Naučićete kako da
+  koristite konzolu kao kalkulator i kako da dodeljujete promenljive
+  (varijable). Takođe ćete se upoznati sa osnovnim tipovima podataka u R. 
 free_preview: true
 ---
 
@@ -10,7 +13,8 @@ free_preview: true
 type: NormalExercise
 key: 15d729634a
 xp: 100
-skills: 1
+skills:
+  - 1
 ```
 
 U editoru koji je sa desne strane kucate R kod da biste rešili zadatke. Kada kliknete na dugme 'Submit Answer' svaka linija koda se interpetira i izvršava u R, i dobijate poruku da li je Vaš kod ispravan. Rezultat R koda se prikazuje u konzoli u donjem desnom uglu.
@@ -60,7 +64,8 @@ success_msg("Odlično! Primetili ste kako konzola prikazuje rezultat R koda koji
 type: NormalExercise
 key: 720745eda5
 xp: 100
-skills: 1
+skills:
+  - 1
 ```
 
 U osnovi, R može da se koristi kao kalkulator jer podržava sledeće aritmetičke operatore:
@@ -139,7 +144,8 @@ success_msg("Odlično! Pređite na sledeći zadatak.")
 type: NormalExercise
 key: 5f200ffd43
 xp: 100
-skills: 1
+skills:
+  - 1
 ```
 
 Osnovni koncept statističkog programiranja su **promenljive** (variables). 
@@ -194,7 +200,8 @@ success_msg("Odlično! Da li ste primetili da R ne prikazuje vrednost promenljiv
 type: NormalExercise
 key: c5944b90eb
 xp: 100
-skills: 1
+skills:
+  - 1
 ```
 
 Pretpostavimo da imate korpu sa 5 jabuka. Kao Analitičar podataka hoćete da dodelite broj jabuka promenljivoj koja se zove `my_apples`.
@@ -243,7 +250,8 @@ success_msg("Odlično! Nastavite dalje!")
 type: NormalExercise
 key: 1c1bd25045
 xp: 100
-skills: 1
+skills:
+  - 1
 ```
 
 Svaka ukusna korpa sa voćem ima pomorandže, tako da ste odlučili da dodate 6 pomorandži. Pošto ste analitičar podataka, odlučujete da odmah kreirate promenljivu `my_oranges` i dodelite joj vrednost 6. Sledeće, hoćete da izračunate koliko komada voća imate ukupno. Pošto ste dali promenljivima logične naziva to možete da uradite na sledeći način: 
@@ -303,7 +311,8 @@ success_msg("Odlično! Velika prednost promenljivih je njihova ponovna korišće
 type: NormalExercise
 key: 915fcc7c99
 xp: 100
-skills: 1
+skills:
+  - 1
 ```
 
 Promenljive `my_apples` i `my_oranges` sadrže brojeve u prethodnoj vežbi. Operator `+` funkcioniše sa numeričkim promeljivim u R. Ako dodelite tekstualnu vrednost promenljivoj `my_oranges` (pogledajte u editoru), tada biste pokušali da saberete numeričku i tekstualnu vrednost i dodelite je promenljivoj `my_fruit`. To nije moguće.
@@ -360,7 +369,8 @@ success_msg("Odlično! Nastavite sa sledećom vežbom.")
 type: NormalExercise
 key: 0f23107394
 xp: 100
-skills: 1
+skills:
+  - 1
 ```
 
 R funkcioniše sa različitim tipovima podataka. Neki od osnovnih tipova podataka su:
@@ -426,7 +436,8 @@ success_msg("Odlično! Nastavite sa sledećom vežbom.")
 type: NormalExercise
 key: 99b549229d
 xp: 100
-skills: 1
+skills:
+  - 1
 ```
 
 Da li se sećate da ste kada ste ukucali `5 + "six"`, dobili poruku zbog neusklađenog tipa podataka? Možete da izbegnete takve situacije tako što ćete proveriti koji je tip podataka promenljive. To možete da uradite pomoću funkcije `class()`, kao što je dato u primeru.
